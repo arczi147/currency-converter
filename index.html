@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wdth, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik walut</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText"><strong>Waluta:</strong></span>
+                        <select class="form__currency js-form__currency" name="desiredCurrency">
+                            <option value="EUR" selected>Euro (EUR)</option>
+                            <option value="USD">Funt brytyjski (GBP)</option>
+                            <option value="GBP">Dolar amerykański (USD)</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText"><strong>Kwota:</strong></span>
+                        <input class="form__amount js-form__amount" type="number" name="amount" min="0.01" step="0.01">
+                    </label>
+                </p>
+                <p>
+                    <button class="form__button" type="submit">Oblicz!</button>
+                </p>
+                <p>
+                    <span class="form__labelText form__labelText--result"><strong>Wynik [PLN]:</strong></span><strong
+                        class="js-form__result"></strong>
+                </p>
+            </fieldset>
+        </form>
+        <footer class="footer">
+            *Przelicznik kursu walut na dzień 24.02.2023 godz. 20:52 w Santander Bank.
+        </footer>
+    </div>
+</body>
+
+</html>
