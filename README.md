@@ -1,6 +1,6 @@
 # Curency converter
 
-![Przelicznik walut](https://user-images.githubusercontent.com/128419757/232231193-67b58de9-5b2e-4385-b9d9-24713181a9de.jpg)
+![currencyConverter](https://github.com/arczi147/currency-converter/assets/128419757/fa02c895-b2d0-4ba6-97c4-11e58177fa39)
 
 ## Demo
 
