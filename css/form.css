@@ -24,18 +24,18 @@
 .form__button {
     width: 100%;
     border: none;
-    background-color: rgb(0, 212, 32);
+    background-color: rgb(227, 151, 0);
     color: white;
     padding: 15px;
     border-radius: 10px;
 }
 
 .form__button:hover {
-    background-color: rgb(0, 212, 52);
+    background-color: rgb(209, 140, 0);
 }
 
 .form__button:active {
-    background-color: rgb(0, 212, 72);
+    background-color: rgb(195, 130, 0);
 }
 
 .form__labelText--result {
@@ -48,11 +48,11 @@
     padding: 20px;
     border-radius: 10px;
     margin: 30px 0;
-    background-color: rgb(190, 241, 255);
+    background-color: rgb(234, 234, 234);
 }
 
 .form__legend {
-    background-color: rgb(0, 212, 32);
+    background-color: rgb(227, 151, 0);
     color: white;
     border-radius: 10px;
     padding: 15px;
